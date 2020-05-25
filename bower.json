@@ -1,0 +1,24 @@
+{
+  "name": "devtoolkit-practice",
+  "version": "1.0.0",
+  "main": [
+    "js/reveal.js",
+    "css/reveal.css"
+  ],
+  "homepage": "https://jntakpe.github.io/devtoolkit-practice",
+  "license": "MIT",
+  "description": "SBCP dev toolkit practice",
+  "authors": [
+    "Jocelyn N'TAKPE <jocelyn.ntakpe@soprabanking.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@innersource.soprasteria.com:dxp/training/presentations/devtoolkit-practice.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ]
+}
