@@ -1,68 +1,77 @@
 <!doctype html>
 <html>
-	<head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <title>Dev toolkit practice</title>
+    <title>Dev toolkit practice</title>
 
-        <link type="image/x-icon" rel="shortcut icon" href="favicon.ico" />
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/reveal.css">
-        <link href="css/theme/sopra-banking.css" rel="stylesheet">
+    <link type="image/x-icon" rel="shortcut icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link href="css/theme/sopra-banking.css" rel="stylesheet">
 
-        <!-- Theme used for syntax highlighting of code -->
-        <link rel="stylesheet" href="lib/css/monokai.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css">
 
-        <!-- Printing and PDF exports -->
-        <script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-    <div class="reveal">
-        <div class="header">
-            <img alt="Sopra banking software" class="logo" src="lib/images/banking-logo.svg"/>
-            <span class="title">Dev toolkit practice</span>
-            <span class="author">Jocelyn N'TAKPÉ</span>
-        </div>
-        <div class="slides">
-            <section data-markdown># Dev toolkit practice</section>
-            <section data-markdown="slides/prerequisites.md"></section>
-            <section data-markdown="slides/architecture-schema.md"></section>
-            <section data-markdown="slides/first-app.md"></section>
-            <section data-markdown="slides/model.md"></section>
-            <section data-markdown="slides/blocking-service.md"></section>
-            <section data-markdown="slides/reactive-service.md"></section>
-            <section data-markdown="slides/client-model.md"></section>
-            <section data-markdown="slides/client-mapper.md"></section>
-            <section data-markdown="slides/client.md"></section>
-            <section data-markdown="slides/skill-service.md"></section>
-            <section data-markdown="slides/team-skill-service.md"></section>
-            <section data-markdown="slides/api-mapper.md"></section>
-            <section data-markdown="slides/teams-resource.md"></section>
-        </div>
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="header">
+        <img alt="Sopra banking software" class="logo" src="lib/images/banking-logo.svg"/>
+        <span class="title">Dev toolkit practice</span>
+        <span class="author">Jocelyn N'TAKPÉ</span>
     </div>
+    <div class="slides">
+        <section data-markdown># Devops toolkit practice</section>
+        <section>
+            <section data-markdown># Agenda</section>
+            <section data-markdown="slides/agenda/prerequisites.md"></section>
+            <section data-markdown="slides/agenda/architecture-schema.md"></section>
+            <section data-markdown="slides/agenda/day1.md"></section>
+            <section data-markdown="slides/agenda/day2.md"></section>
+            <section data-markdown="slides/agenda/day3.md"></section>
+        </section>
+        <section>
+            <section data-markdown># Practice</section>
+            <section data-markdown="slides/practice/first-app.md"></section>
+            <section data-markdown="slides/practice/model.md"></section>
+            <section data-markdown="slides/practice/blocking-service.md"></section>
+            <section data-markdown="slides/practice/reactive-service.md"></section>
+            <section data-markdown="slides/practice/client-model.md"></section>
+            <section data-markdown="slides/practice/client-mapper.md"></section>
+            <section data-markdown="slides/practice/client.md"></section>
+            <section data-markdown="slides/practice/skill-service.md"></section>
+            <section data-markdown="slides/practice/team-skill-service.md"></section>
+            <section data-markdown="slides/practice/api-mapper.md"></section>
+            <section data-markdown="slides/practice/teams-resource.md"></section>
+        </section>
+    </div>
+</div>
 
-		<script src="js/reveal.js"></script>
+<script src="js/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				hash: true,
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/highlight/highlight.js' },
-					{ src: 'plugin/notes/notes.js', async: true }
-				]
-			});
-		</script>
-	</body>
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        hash: true,
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/highlight/highlight.js'},
+            {src: 'plugin/notes/notes.js', async: true}
+        ]
+    });
+</script>
+</body>
 </html>
