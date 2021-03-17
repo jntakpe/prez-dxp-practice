@@ -6,7 +6,7 @@
 * [Commons API presentation](https://jntakpe.github.io/prez-commons/#/2)
 * [API implementation practice](https://jntakpe.github.io/prez-dxp-practice/#/2/11)
 * [Commons security presentation](https://jntakpe.github.io/prez-commons/#/4)
-* TODO [API security practice]()
+* [API security practice](https://jntakpe.github.io/prez-dxp-practice/#/2/12)
 * TODO [API documentation practice]()
 * TODO [API contract testing practice]()
 * [Commons Kafka presentation](https://jntakpe.github.io/prez-commons/#/6)
